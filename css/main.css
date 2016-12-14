@@ -10,13 +10,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #fff;
+  background-image: url("../images/sloth-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 48px;
 }
 
 h1 {
   color: #fff;
-}
-
-nav {
 }
 
 a {
@@ -25,14 +26,13 @@ a {
   padding: .5rem;
 }
 
-.btn:hover {
-  color: #fff;
-  background-color: #4b2d2c;
-  border-color: #fff;
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+  text-decoration: none;
 }
 
-.btn {
+a:hover {
   color: #4b2d2c;
-  background-color: #fff;
-  border-color: #fff;
+  border-bottom: .1em solid currentColor;
 }
