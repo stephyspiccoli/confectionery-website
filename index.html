@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -28,22 +28,21 @@
     <div class="unit xs-1 s-1 m-1 l-1">
       <nav>
         <ol class="nav list-group-inline pad-t-2 tera push-2">
-          <li class="gutter-1-4"><a class="block" href="#history">History</a></li>
-          <li class="gutter-1-4"><a class="block" href="#chocolate">Chocolate</a></li>
-          <li class="gutter-1-4"><a class="block" href="#the-staff">The Staff</a></li>
-          <li class="gutter-1-4"><a class="block" href="#contact">Contact</a></li>
+          <li class="gutter-1-2"><a class="block" href="#history">History</a></li>
+          <li class="gutter-1-2"><a class="block" href="#chocolate">Chocolate</a></li>
+          <li class="gutter-1-2"><a class="block" href="#contact">Contact</a></li>
         </ol>
       </nav>
     </div>
   </div>
 </header>
 
-<main>
+<main role="main">
 
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <div class="embed embed-3by2">
-        <img class="gutter-1-4 embed-item" src="images/chocolate1.jpg" alt="">
+        <img class="embed-item" src="images/chocolate1.jpg" alt="">
       </div>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
@@ -55,14 +54,48 @@
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <div class="embed embed-3by2">
-        <img class="gutter-1-4 embed-item" src="images/chocolate1.jpg" alt="">
+        <img class="embed-item" src="images/chocolate1.jpg" alt="">
       </div>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <h2 id="chcolate" class="push-0 text-center">Chocolate</h2>
+      <h2 id="chocolate" class="push-0 text-center">Chocolate</h2>
       <p>Coco’s Chocolatiers in addition to chocolates, also sells truffles, coffee, cocoa, biscuits, dipped fruits and sweets, chocolate liquor, shakes, candy, wedding and party favours and other items arranged in gift baskets. We also also produce seasonal and limited-edition chocolates with special packaging for major holidays. Coco’s Chocolatiers also has license agreements for the production of ice cream, cheesecake, coffee pods and liqueur that comes in several chocolate-related flavours. Products are also available in sugar-free and Kosher varieties.</p>
     </div>
   </div>
+
+  <footer role="contentinfo">
+    <div>
+      <h2 id="contact" class="text-center">Contact Us</h2>
+
+
+      <form class="push-0" method="POST" action="https://formspree.io/stephaniersp@gmail.com">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name">
+      </div>
+      <div class="push">
+        <label for="email">Your email</label>
+        <input id="email" type="email" placeholder="me@me.com">
+      </div>
+      <div class="push">
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option>General Question</option>
+          <option>Just to talk</option>
+        </select>
+      </div>
+      <div class="push">
+        <label for="details"> What's up?</label>
+        <textarea id="details"></textarea>
+      </div>
+      <div>
+        <button type="submit">Send message</button>
+      </div>
+    </form>
+    </div>
+  </footer>
+
+</main>
 
 
 
