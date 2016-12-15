@@ -12,7 +12,6 @@ html {
   text-size-adjust: 100%;
 }
 
-
 h1 {
   color: #2a1b10;
   background-color: #fff;
@@ -23,13 +22,13 @@ h1 {
   margin: 0;
 }
 
-.subtitle {
-  color: #2a1b10;
-}
-
 a {
   text-decoration: none;
   color: #fff;
+}
+
+nav {
+  background-color: #2a1b10;
 }
 
 .nav a {
@@ -37,16 +36,8 @@ a {
   text-decoration: none;
 }
 
-nav {
+.nav a:hover {
   background-color: #2a1b10;
-}
-
-a:hover {
   color: #d3be91;
-  background-color: #2a1b10;
   border-bottom: .1em solid #d3be91;
-}
-
-h2 {
-  color: #d3be91;
 }
