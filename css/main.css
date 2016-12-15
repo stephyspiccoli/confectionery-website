@@ -19,13 +19,19 @@ header {
 }
 
 h1 {
-  color: #fff;
+  color: #d3be91;
   background-color: #2a1b10;
   background-image: url("../images/bonbon.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: left;
   margin: 0;
+}
+
+h2 {
+  color: #d3be91;
+  border-top: 2px solid #000;
+  padding: 0;
 }
 
 a {
