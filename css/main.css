@@ -29,10 +29,14 @@ h1 {
 }
 
 h2 {
-  color: #d3be91;
-  border-top: 2px solid  #d3be91;
+  color: #9b8f8a;
+  border-top: 4px solid  #9b8f8a;
   padding: 0;
   font-family: "Lobster Two", bold;
+}
+
+h3 {
+  color: #726158;
 }
 
 .subtitle {
@@ -53,6 +57,7 @@ a:hover {
   background-color: #2a1b10;
   top: 100%;
   z-index: 1;
+  margin: 0;
 }
 
 .nav li {
@@ -75,10 +80,29 @@ a:hover {
 
 .history {
   margin-top: 3rem;
+  background-color: #e0dad7;
 }
 
 .banner {
   min-height: 100px;
+}
+
+.delicacies {
+  background-color: #e0dad7;
+}
+
+.btn {
+  background-color: #9b8f8a;
+  border-color: #9b8f8a;
+}
+
+.btn:hover {
+  background-color: #2a1b10;
+  border-color: #2a1b10;
+}
+
+.coffee {
+  background-color: #e0dad7;
 }
 
 footer {
