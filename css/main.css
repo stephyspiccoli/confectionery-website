@@ -32,6 +32,7 @@ h2 {
   color: #d3be91;
   border-top: 2px solid  #d3be91;
   padding: 0;
+  font-family: "Lobster Two", bold;
 }
 
 a {
@@ -60,7 +61,7 @@ a:hover {
 .nav a {
   display: inline-block;
   text-decoration: none;
-  transition-duration: 0.75s;
+  transition-duration: .75s;
   transition-timing-function: linear;
 }
 
@@ -147,7 +148,7 @@ a:hover {
   .nav a {
     display: inline-block;
     text-decoration: none;
-    transition-duration: 0.25s;
+    transition-duration: .25s;
     transition-timing-function: linear;
   }
 
@@ -156,3 +157,4 @@ a:hover {
     color: #d3be91;
     border-bottom: .1em solid #d3be91;
   }
+}
