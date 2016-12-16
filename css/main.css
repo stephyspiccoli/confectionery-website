@@ -26,6 +26,7 @@ h1 {
   background-size: 40px;
   background-position: left;
   margin: 0;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -111,4 +112,12 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media only screen and (min-width: 35em) {
+
+  h1 {
+    background-size: 60px;
+  }
+
 }
